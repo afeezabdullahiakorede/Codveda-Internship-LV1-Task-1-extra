@@ -21,6 +21,12 @@ nav ul {
     gap: 1.5rem;
 }
 
+nav ul li a {
+    color: var(--dark-black);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
 nav ul li a:hover {
     color: var(--primary-yellow);
 }
@@ -146,6 +152,11 @@ footer {
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+
+.social-links a {
+    color: var(--pure-white);
+    transition: color 0.3s ease;
 }
 
 .social-links a:hover {
