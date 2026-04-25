@@ -1,8 +1,3 @@
-
-html {
-    scroll-behavior: smooth;
-}
-
 header {
     background-color: var(--pure-white);
     padding: 1rem 5%;
@@ -157,7 +152,7 @@ footer {
     color: var(--primary-yellow);
 }
 
-/* Media Query for Tablets and Desktops */
+/* 9. Media Query for Tablets and Desktops */
 @media (min-width: 768px) {
     .feature-grid {
         display: grid;
@@ -172,4 +167,21 @@ footer {
     .hero {
         min-height: 80vh; /* More visual impact on desktop */
     }
+}
+
+/* 10. Define the animation "recipe" */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Starts slightly lower */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Ends in its natural position */
+    }
+}
+
+/* 11. Apply it to the Hero content */
+.hero h1, .hero p, .hero .cta-btn {
+    animation: fadeIn 2.0s ease-out forwards;
 }
