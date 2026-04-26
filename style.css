@@ -28,7 +28,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--primary-yellow);
+    color: var(--primary-blue);
 }
 
 
@@ -41,7 +41,7 @@ nav ul li a:hover {
 
 /* 2. Color Variables (Brand color) */
 :root {
-    --primary-yellow: #fbc02d;
+    --primary-blue: #007bff;
     --dark-black: #1a1a1a;
     --pure-white: #ffffff;
     --accent-green: #2e7d32;
@@ -68,7 +68,7 @@ ul {
 
 /* 5. Hero Section Styling */
 .hero {
-    background-color: var(--primary-yellow);
+    background-color: var(--primary-blue);
     padding: 4rem 1.5rem; /* Space inside the section */
     text-align: center; /* Centers the text lines */
     display: flex;
@@ -80,11 +80,13 @@ ul {
 
 .hero h1 {
     font-size: 2rem;
+    color: var(--pure-white);
     margin-bottom: 1rem;
 }
 
 .hero p {
     font-size: 1.1rem;
+    color: var(--pure-white);
     margin-bottom: 2rem;
 }
 
@@ -93,7 +95,7 @@ ul {
     background-color: var(--dark-black);
     color: var(--pure-white);
     padding: 0.8rem 2rem;
-    border: none;
+    border: 1px solid var(--dark-black);
     border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
@@ -129,7 +131,7 @@ ul {
     background: #f9f9f9;
     padding: 2rem;
     border-radius: 10px;
-    border-left: 5px solid var(--primary-yellow); /* Branding accent */
+    border-left: 5px solid var(--primary-blue); /* Branding accent */
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     text-align: center;
 }
@@ -160,7 +162,7 @@ footer {
 }
 
 .social-links a:hover {
-    color: var(--primary-yellow);
+    color: var(--primary-blue);
 }
 
 /* 9. Media Query for Tablets and Desktops */
